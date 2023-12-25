@@ -1,0 +1,13 @@
+[package]
+name = "pt3play"
+version = "0.1.0"
+edition = "2021"
+exclude = ["docs/**"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [".", "pt3"]
+
+[dependencies]
+pt3 = { path = "pt3" }
